@@ -24,63 +24,66 @@
 
         </div>
     </header>
-    <section id="search_bar" class="shadow m-5 text-center">
+    <section section id="search_bar" class="shadow m-5 text-center">
         <h2>Trouvez votre voiture idéale</h2>
-        <form class="row">
-            <div class="d-flex justify-content-between">
-                <div class="col-3 row">
-                    <div class="dropdown col-4">
-                        <button class="btn grey dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Marque
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown col-4">
-                        <button class="btn grey dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Modèle
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <div class="dropdown col-4 me-5">
-                        <button class="btn grey dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Type de carburant
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+        <div class="container">
+            <form class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-4 dropdown">
+                            <button class="btn grey dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Marque
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4 dropdown">
+                            <button class="btn grey dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Modèle
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4 dropdown">
+                            <button class="btn grey dropdown-toggle rounded-pill" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Type de carburant
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-9 row">
-                    <div class="slidecontainer col-3">
-                        <p class="position-absolute">Année de mise en circulation</p>
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <div class="col">
+                    <div class="row">
+                        <div class="col slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <p>Année de mise en circulation</p>
+                        </div>
+                        <div class="col slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <p>Kilométrage</p>
+                        </div>
+                        <div class="col-4 slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            <p>Prix</p>
+                        </div>
+                        <div class="col"><button type="submit" class="btn red rounded-pill">Recherchez</button></div>
                     </div>
-                    <div class="slidecontainer col-3">
-                        <p class="position-absolute">Kilométrage</p>
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    </div>
-                    <div class="slidecontainer col-3">
-                        <p class="position-absolute">Prix</p>
-                        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                    </div>
-                    <div class="col-3"><button type="submit" class="btn red rounded-pill">Recherchez</button></div>
-
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
