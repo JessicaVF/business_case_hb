@@ -94,3 +94,11 @@ header div {
 }
 /** Fin code from https://www.w3schools.com/howto/howto_js_rangeslider.asp **/
 /***** section search_bar *****/
+/***** section annonces *****/
+.border-blur{
+background: #c4c4c4;
+border: 5px solid #c4c4c4;
+box-sizing: border-box;
+filter: blur(4px);
+}
+/***** fin annonces *****/
