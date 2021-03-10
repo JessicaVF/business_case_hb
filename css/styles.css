@@ -5,11 +5,20 @@ body {
 .btn.red {
   background-color: red;
   color: white;
+  
 }
 .btn.grey {
   background-color: #c4c4c4;
   color: black;
   padding: 0 10%;
+  box-shadow:2px 2px 5px 1px #686565 inset;
+}
+a:not(header a){
+  text-decoration: none;
+  
+}
+li{
+  list-style: none;
 }
 /***** by sections *****/
 
@@ -58,8 +67,10 @@ header div {
   padding: 15px 15px 10px;
 }
 /** code from https://www.w3schools.com/howto/howto_js_rangeslider.asp **/
+
 .slidecontainer {
   width: 100%;
+  
 } 
 
 .slider {
@@ -72,6 +83,7 @@ header div {
   /* opacity: 0.7; */
   -webkit-transition: 0.2s;
   /* transition: opacity 0.2s; */
+  box-shadow:2px 2px 5px 1px #686565 inset;
   
 }
 
@@ -95,10 +107,25 @@ header div {
 /** Fin code from https://www.w3schools.com/howto/howto_js_rangeslider.asp **/
 /***** section search_bar *****/
 /***** section annonces *****/
-.border-blur{
+#annonces h5{
+  color: red;
+}
+#annonces p{
+  color: black;
+}
+#annonces div > div > p:first-of-type{
+  font-weight: 800;
+  font-size: 17px;
+  
+}
+#annonces div > div > p:last-of-type{
+  padding: 0 30px
+}
+
+/* .border-blur{
 background: #c4c4c4;
 border: 5px solid #c4c4c4;
 box-sizing: border-box;
 filter: blur(4px);
-}
+} */
 /***** fin annonces *****/
