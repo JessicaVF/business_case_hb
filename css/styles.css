@@ -119,11 +119,20 @@ header div {
 #annonces div div div div div p:nth-of-type(2){
   padding: 0 30px
 }
-
-/* .border-blur{
-background: #c4c4c4;
-border: 5px solid #c4c4c4;
-box-sizing: border-box;
-filter: blur(4px);
-} */
 /***** fin annonces *****/
+/***** pagination *****/
+#pagination ul li a{
+  padding: 0 10px;
+  color: black
+}
+#pagination ul li:first-of-type a,
+#pagination ul li:last-of-type a{
+  color:red;
+}
+/***** fin pagination *****/
+/***** footer *****/
+footer ul li a{
+  color: black;
+  padding: 0 10px;
+}
+/***** fin footer *****/
